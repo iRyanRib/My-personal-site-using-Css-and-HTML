@@ -1,0 +1,127 @@
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||ESTRUTURA |||||||||||||||||||||||||||||||||||||||||||||||||*/
+body{
+    margin: 0;
+    color:#40514E;
+    text-align: center;
+    font-family: 'Merriweather',serif;
+}
+a{
+    text-decoration: none;
+}
+.top-container{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+ }
+ .middle-container{
+    margin-bottom: 120px;
+}
+
+.bottom-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #66BFBF;
+}
+.skill-row{
+     margin: 100px auto 100px auto;
+     width: 50%;
+     text-align: left;
+     line-height: 2;
+ }
+hr{
+    border: dotted rgba(190, 190, 190, 0.527) ;
+    border-width: 0 0 7px;
+    width: 5%;
+    margin: 50px auto 50px auto;
+}
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||TEXTO |||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+h1{
+    font-size: 5.9rem;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+    
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    color: #66BFBF;
+    font-weight: bold;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+}
+.bye{
+    margin: 50px auto 50px auto;
+}
+.getin{
+    margin: 90px auto 50px auto; 
+}
+.footer-link{
+    color:#11999E;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: normal;
+}
+.reservedRights{
+    margin-top: 25px;
+    color:#EAF6F6;
+}
+.description{
+    color:#40514E;
+    font-weight: bold;
+    width: 35%;
+    display: inline-block;
+    
+}
+.underline{
+    text-decoration: underline;
+}
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||IMAGENS |||||||||||||||||||||||||||||||||||||||||||||||||*/
+.python{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.opencv{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.mountain{
+    position: relative;
+    height: 360px;
+}
+.bottom-cloud{
+    margin-top: 50px;
+    position: absolute;
+    left: 350px;
+}
+
+.top-cloud{
+    position: absolute;
+    top:50px;
+    right: 350px;
+}
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||Botoes |||||||||||||||||||||||||||||||||||||||||||||||||*/
+.btn{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #11cdd4;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: normal;
+}
+.btn:hover{
+    background-color: #30e3cb;  
+}
